@@ -1,0 +1,117 @@
+:root {
+  /*Color Properties*/
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+
+  /*Font Properties*/
+  --font-size-main: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-family-main: "Kumbh Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+h2,
+p {
+  margin: 0 0;
+}
+
+body {
+  font: var(--font-weight-normal) var(--font-size-main) var(--font-family-main);
+  background: url(../images/bg-pattern-top.svg) no-repeat -765px -575px,
+    url(../images/bg-pattern-bottom.svg) no-repeat 165px 325px, var(--dark-cyan);
+  display: grid;
+  place-content: center;
+  font: var(--font-weight-normal) var(--font-size-main) var(--font-family-main);
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+}
+
+h1,
+h2 {
+  color: var(--very-dark-desaturated-blue);
+  font-weight: var(--font-weight-bold);
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+span,
+.card__location {
+  color: var(--dark-grayish-blue);
+}
+
+span {
+  padding-left: 0.5rem;
+}
+
+p {
+  color: var(--dark-gray);
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  width: min(100%, 350px);
+  margin: 0 auto;
+}
+
+.card__header {
+  max-height: 90px;
+}
+
+.card__body,
+.card__footer {
+  background-color: #ffffff;
+}
+
+.card__location {
+  padding-bottom: 0.9rem;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 0.1px solid var(--dark-gray);
+  padding: 1.5rem;
+}
+
+.img__avatar {
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  outline-color: #ffffff;
+  width: 110px;
+}
+
+.attribution {
+  padding-top: 3rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1080px) {
+  body {
+    background: url(../images/bg-pattern-top.svg) no-repeat -20% 820%,
+      url(../images/bg-pattern-bottom.svg) no-repeat 125% -750%,
+      var(--dark-cyan);
+  }
+}
