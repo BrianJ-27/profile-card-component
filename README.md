@@ -95,12 +95,12 @@ I want to make sure I have a solid understanding of containers and making sure I
 
 ### Useful resources
 
-- [CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp) - This helped me figure out to use multiple css backgrounds.
+- [CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp) - This helped me figure out how to use multiple css backgrounds.
 
 ## Author
 
 - Website - [Brian Johnson's Portfolio](https://brianbjohnson.net/)
-- Frontend Mentor - [FEM PRofile Page](https://www.frontendmentor.io/profile/BrianJ-27)
+- Frontend Mentor - [FEM Profile Page](https://www.frontendmentor.io/profile/BrianJ-27)
 
 ## Acknowledgments
 
