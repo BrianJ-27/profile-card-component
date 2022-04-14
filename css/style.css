@@ -16,21 +16,13 @@
 /* Base Styles */
 * {
   box-sizing: border-box;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 html,
 body {
   min-height: 100vh;
-}
-
-h2,
-main,
-article,
-div,
-ul,
-p {
-  margin: 0 0;
-  padding: 0 0;
 }
 
 body {
@@ -42,9 +34,8 @@ body {
   place-content: center;
   padding: 2rem;
   grid-template-columns: minmax(260px, 350px);
-  font: var(--font-weight-normal) var(--font-size-main) var(--font-family-main);
   letter-spacing: 1px;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: center;
 }
 
@@ -89,17 +80,12 @@ a {
 .card {
   border-radius: 15px;
   overflow: hidden;
-}
-
-.card__header {
-  max-height: 90px;
-}
-
-.card__body,
-.card__footer {
   background-color: #ffffff;
 }
 
+.card__header {
+  margin-bottom: -50px;
+}
 .card__location {
   padding-bottom: 0.9rem;
 }
