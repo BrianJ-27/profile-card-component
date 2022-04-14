@@ -49,9 +49,9 @@ Again my work process is work the way to layout the HTML. Then the appropriate B
 
 ### What I learned
 
-The major things I learned in this project was how to add multiple background images styling to the project on different screen sizes. I honestly thought I could write this code out once in mobile mode first and not have to worry about making it flexible but turns out I did.
+The major things I learned in this project was how to add multiple background image styling to the project on different screen sizes. I honestly thought I could write this code out once in mobile mode first and not have to worry about making it flexible but turns out I did.
 
-Initially I had this coded with h3 and p tags but found out based on this design, it makes more sense semantically to use an unordered list an put place strong tags on the first child li element in each ul tag.
+Initially, I had this coded with h3 and p tags but found out based on this design, it makes more sense semantically to use an unordered list and place strong tags on the first child li element on each ul tag.
 
 ```html
 <div class="card__footer">
@@ -70,7 +70,7 @@ Initially I had this coded with h3 and p tags but found out based on this design
 </div>
 ```
 
-I am proud of this piece of code because I used the background shorthand to add multiple background images into the layout
+I am proud of this piece of code because I used the background shorthand property to add multiple background images into the layout
 
 ```css
 @media only screen and (min-width: 768px) {
